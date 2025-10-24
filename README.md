@@ -6,7 +6,7 @@ Note: You need to have `python`, and `virtualenv` module installed on your machi
 
 Create and Activate a virtual environment
 ```bash
-pip -m venv venv
+python -m venv venv
 source ./venv/bin/activate
 ```
 
