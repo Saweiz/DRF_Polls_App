@@ -4,6 +4,12 @@ Note: You need to have `python`, and `virtualenv` module installed on your machi
 
 ### Quick Start
 
+Clone the Repository and Navigate to project directory
+```bash
+git clone git@github.com:Saweiz/DRF_Polls_App.git
+cd DRF_Polls_App/
+```
+
 Create and Activate a virtual environment
 ```bash
 python -m venv venv
@@ -15,15 +21,15 @@ Install dependencies from requirements.txt file
 pip install -r requirements.txt
 ```
 
-Create Super User
-```bash
-python manage.py createsuperuser
-```
-
 Migrate database tables
 ```bash
 python manage.py makemigrations
 python manage.py migrate
+```
+
+Create Super User
+```bash
+python manage.py createsuperuser
 ```
 
 Run the application
